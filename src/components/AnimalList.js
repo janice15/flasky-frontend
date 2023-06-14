@@ -1,6 +1,18 @@
 import './AnimalList.css'
+import Animal from './Animal';
 
-//const AnimalList = () => {
-    //return (<section)
+const AnimalList = () => {
+   return(
+    <section className="AnimalList">
+        <h2>Animal List</h2>
+        <ul className="Animal_list">
+            <li><Animal></Animal></li>
+            <li><Animal></Animal></li>
+            <li><Animal></Animal></li>
+        </ul>
+    </section>
+   )
     
-//};
+};
+
+export default AnimalList;
